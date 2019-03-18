@@ -1,0 +1,13 @@
+server:
+  port: 8080
+#  compression:
+#    enabled: true
+#    mime-types: application/octet-stream
+spring:
+  application:
+    name: weather
+  redis:
+    password: 123456
+  thymeleaf:
+    cache: false
+    enable-spring-el-compiler: true
